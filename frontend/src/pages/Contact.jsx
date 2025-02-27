@@ -2,7 +2,7 @@ import React from "react";
 import Title from "../components/Title";
 import { assets } from "../assets/assets";
 import { Phone, Mail, MapPin, Briefcase } from 'lucide-react';
-import NewsletterBox from "../components/NewsletterBox";
+import Newsletterbox from "../components/Newsletterbox";
 
 const Contact = () => {
   return (
@@ -96,7 +96,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <NewsletterBox/>
+      <Newsletterbox/>
     </div>
   );
 };
